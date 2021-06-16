@@ -1,0 +1,108 @@
+html, body { 
+	height:98%; 
+	background-color: black; 
+	overflow-y: show;
+	overflow-x: hidden;
+	text-align: center;
+	}
+
+#plane {
+	height:98%;
+    position:relative;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	}
+
+.randomposition {
+	position: absolute;
+	padding: 10px;
+}
+
+.m {color: #ffd270;}
+.a {color: #e6853a;}
+.ab {color: #a64832;}
+.s {color: #e176e2;}
+
+/*#pick {color: #ffd270;}*/
+
+	a {
+		text-decoration: none;
+	}
+	
+	p {
+		color: white;
+	}
+	h3 {
+		color: white;
+	}
+	
+	.links {
+		color: lightblue;
+	}
+	
+	
+	.links:hover {
+		color: darkblue;
+		background-color: white;
+	}
+	
+	.about {
+		width: 50%;
+		display: inline-block;
+	}
+	
+	.linkspace {
+		display: inline-block;
+		padding-left: 20px;
+		position: absolute;
+		margin-top: 15px;
+	}
+	
+	.linkspace2 {
+		display: inline-block;
+		padding: 7px;
+		margin: 7px;
+		position: absolute;
+		margin-top: 5px;
+		font-size: 13px;
+		border: white 2px solid;
+	}
+	
+	.linkspace2 a {
+		margin: 15px;
+	}
+	
+	figure {
+		display: inline-block;
+	}
+	
+	figure img {
+		width: 200px;
+		height: 200px;
+	}
+	
+	figcaption {
+		color: white;
+		font-style: italic;
+		text-align: center;
+		font-size: 13px;
+	}
+	
+	li {color: white;}
+	
+	li a {
+		color: white;
+	}
+	
+	li a:hover {
+		text-decoration: underline;
+	}
+	
+	.socials {
+		color: white;
+		text-decoration: none;
+	}
+	
+	.socials:hover {
+		font-weight: bold;
+	}
